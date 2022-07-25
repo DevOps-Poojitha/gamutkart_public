@@ -8,5 +8,12 @@ pipeline  {
             }
           }
         }
+     stage("stage2")  {
+      steps  {
+         script  {
+            bat  "mvn clean install"
+            }
+          }
+        }
      }
  }
