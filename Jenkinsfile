@@ -5,6 +5,7 @@ pipeline  {
       steps  {
          script  {
             bat  "mvn clean install"
+            echo  "Stage 1 Completed"
             }
           }
         }
